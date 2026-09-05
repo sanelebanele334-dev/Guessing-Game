@@ -1,0 +1,91 @@
+body{
+    background-color:beige;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+#gameContainer{
+    display:flex;
+    flex-direction: column;
+    background-color:bisque;
+    width:fit-content;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    border: 10px solid #e79e9e;
+}
+
+#guessInput{
+    width: 150px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+#guessInput::-webkit-inner-spin-button,
+#guessInput::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#submitGuess{
+    padding: 5px 10px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #9fbd6e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out;
+}
+
+#submitGuess:hover {
+    transform: scale(1.1);
+}
+
+#playAgain {
+    padding: 5px 10px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #9fbd6e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out;
+}
+
+#playAgain:hover{
+    transform: scale(1.1);
+}
+
+#attemptsDisplay {
+    padding: 5px 10px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #9fbd6e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#feedback {
+     padding: 5px 10px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #9fbd6e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#guessInput {
+    border-color: #9fbd6e;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+}
